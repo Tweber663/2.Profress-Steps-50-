@@ -58,6 +58,7 @@ class Progress {
         this.counter === index? e.classList.add('active') : null;
       } else {
         console.log(next)
+        console.log(next)
         this.counter + 1 === index? e.classList.remove('active') : null;
       }
     })
